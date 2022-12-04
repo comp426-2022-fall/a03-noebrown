@@ -14,15 +14,15 @@ var rolls = 1;
 
 // changes if args. true
 if (args.sides) {
-    var sides = args.sides
+    var sides = args.sides;
 }
 
 if(args.dice) {
-    var dice = args.dice
+    var dice = args.dice;
 }
 
 if(args.rolls) {
-    var rolls = args.rolls
+    var rolls = args.rolls;
 }
 
-console.log(roll(sides, dice, rolls))
+console.log(roll(sides, dice, rolls));
