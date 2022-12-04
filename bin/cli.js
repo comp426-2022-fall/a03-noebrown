@@ -5,6 +5,8 @@
 import minimist from 'minimist';
 import { roll } from '../lib/roll.js';
 
+const args = minimist(process.argv.slice(2));
+
 // setting values for vars
 var sides = 6;
 var dice = 2;
